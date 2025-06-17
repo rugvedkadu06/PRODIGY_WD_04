@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rugved Kadu - Portfolio</title>
+    <meta
+      name="description"
+      content="Rugved Kadu's portfolio showcasing projects and full-stack AI skills."
+    />
+    <link rel="icon" href="https://jmp.sh/s/4ZZ426ZgHHkVqte0akYE" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body class="font-sans text-techLight">
+    <div class="emoji-cursor" id="cursor">⚡</div>
+    <div id="tsparticles"></div>
+    <header
+      class="fixed w-full top-0 z-50 bg-black bg-opacity-80 shadow px-6 py-4 flex justify-between items-center"
+    >
+      <h1 class="text-xl font-bold gradient-text cursor-default select-none">
+        Rugved Kadu
+      </h1>
+      <nav class="space-x-6 text-sm font-medium uppercase tracking-wide">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section
+      class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-28 pb-10 max-w-3xl mx-auto"
+    >
+      <h2
+        class="text-5xl md:text-6xl font-extrabold gradient-text mb-6 animate-fade-in-up"
+      >
+        Hi, I'm Rugved Kadu
+      </h2>
+      <p
+        class="text-lg text-techLight text-opacity-80 mb-8 animate-fade-in-up"
+        style="animation-delay: 0.3s"
+      >
+        MERN & AI developer passionate about building modern, intelligent web
+        applications. Let’s build something impactful together!
+      </p>
+      <a
+        href="#projects"
+        class="btn-tech animate-fade-in-up"
+        style="animation-delay: 0.6s"
+        >View Projects</a
+      >
+    </section>
+    <section
+      id="about"
+      class="px-6 py-20 bg-zinc-950 text-center max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10"
+    >
+      <img
+        src="https://avatars.githubusercontent.com/u/83751837?v=4"
+        alt="Rugved Kadu Photo"
+        class="about-photo mx-auto md:mx-0"
+        loading="lazy"
+      />
+      <div class="max-w-xl text-left">
+        <h3 class="text-4xl font-semibold gradient-text mb-6">About Me</h3>
+        <p class="text-techLight text-opacity-80 leading-relaxed mb-4">
+          I'm a full-stack web developer specializing in MERN (MongoDB,
+          Express, React, Node.js) and AI-powered applications. I love turning
+          complex problems into elegant, user-friendly solutions. With a solid
+          background in Computer Science and real-world projects, I am
+          constantly learning and evolving.
+        </p>
+        <p class="text-techLight text-opacity-80 leading-relaxed">
+          When I'm not coding, I enjoy exploring new technologies, contributing
+          to open-source, and connecting with the developer community.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="projects"
+      class="px-6 py-20 max-w-6xl mx-auto"
+      aria-label="Projects"
+    >
+      <h3
+        class="text-4xl font-semibold gradient-text text-center mb-12 animate-fade-in-up"
+      >
+        Projects
+      </h3>
+      <div
+        id="projects-container"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10"
+      ></div>
+    </section>
+    <section
+      id="contact"
+      class="text-center px-6 py-20 max-w-4xl mx-auto"
+      aria-label="Contact"
+    >
+      <h3
+        class="text-4xl font-semibold gradient-text mb-10 animate-fade-in-up"
+      >
+        Get in Touch
+      </h3>
+      <div
+        class="flex flex-wrap justify-center gap-6 animate-fade-in-up"
+        style="animation-delay: 0.2s"
+      >
+        <a
+          href="mailto:rugveddevmain@gmail.com"
+          class="btn-tech"
+          >Email</a
+        >
+        <a
+          href="https://linkedin.com/in/kadurugved/"
+          target="_blank"
+          rel="noopener"
+          class="btn-tech bg-white text-black hover:bg-yellow-400"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/rugvedkadu06/"
+          target="_blank"
+          rel="noopener"
+          class="btn-tech bg-white text-black hover:bg-yellow-400"
+          >GitHub</a
+        >
+      </div>
+    </section>
+    <footer class="bg-zinc-950 text-center py-6 text-gray-400 text-sm select-none">
+      &copy; 2025 Rugved Kadu. All rights reserved.
+      <div class="mt-2 space-x-4 text-lg">
+        <a
+          href="https://linkedin.com/in/kadurugved/"
+          target="_blank"
+          aria-label="LinkedIn"
+          class="inline-block hover:text-techYellow transition"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/rugvedkadu06/"
+          target="_blank"
+          aria-label="GitHub"
+          class="inline-block hover:text-techYellow transition"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="script.js">
+     
+    </script>
+  </body>
+</html>
